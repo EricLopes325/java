@@ -1,6 +1,13 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Olá, mundo! Este é um teste de execução em Java.");
-    }
-}
 
+        public static void main(String[] args) {
+            String str = "Eric";
+    
+            if (str.isBlank()) {
+                System.out.println("Verdadeiro");
+            } else {
+                System.out.println("Falso");
+            }
+        }
+    }
+    
